@@ -4,17 +4,6 @@ import 'package:riverpod_statenotifier_freezed_article/src/features/random_numbe
 
 ///RandomNumber
 class RandomNumberPage extends StatelessWidget {
-  ///RandomNumber constructor
-  const RandomNumberPage({Key? key}) : super(key: key);
-
-  ///RandomNumber [routeName]
-  static const routeName = 'RandomNumber';
-
-  ///Router for RandomNumber
-  static Route route() {
-    return MaterialPageRoute<void>(builder: (_) => const RandomNumberPage());
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
